@@ -1,0 +1,37 @@
+body {
+            background-color: #b81818c7; /* Color de fondo */
+            font-family: Arial, sans-serif; /* Fuente del texto */
+        }
+        header {
+            background-color: hsl(273, 39%, 49%); /* Color de fondo del encabezado */
+            color: white; /* Color del texto del encabezado */
+            padding: 10px; /* Espaciado interno */
+            text-align: center; /* Alineacion del texto al centro */
+        }
+        nav ul {
+            list-style-type: none; /* Sin viñetas en la lista */
+            padding: 0; /* Sin espaciado interno */
+        }
+        nav ul li {
+            display: inline; /* Elementos en linea */
+            margin-right: 15px; /* Espacio entre los enlaces */
+        }
+        nav ul li a {
+            text-decoration: none; /* Sin subrayado en los enlaces */
+            color: hsl(120, 4%, 5%); /* Color de los enlaces */
+        }
+        #botonVoz {
+            padding: 10px 20px; /* Espaciado interno del botón */
+            font-size: 16px; /* Tamaño de fuente del botón */
+            background-color: hsl(273, 39%, 49%); /* Color de fondo del botón */
+            color: #709728; /* Color del texto del botón */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+            transition: background-color 0.3s; /* Transición suave al cambiar el color de fondo */
+            padding: 30px 20px; /* Espaciado interno del botón */
+            cursor: pointer; /* Cambia el cursor al pasar por encima */
+        }
+        #botonVoz:hover {
+            background-color: hsl(273, 39%, 59%); /* Color de fondo al pasar el mouse */
+        }
