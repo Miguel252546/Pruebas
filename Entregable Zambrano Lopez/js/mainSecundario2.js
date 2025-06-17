@@ -8,9 +8,6 @@ if (!confirmacion) {
     juego();
 }
 
-
-
-
 //////////////////////////////Funciones////////////////////////////////
 ///////////////////////Función para preguntar el nombre y apellido del usuario////////////////
 function preguntar() {
@@ -47,59 +44,8 @@ function juego() {
         return juego(); 
     }
 }
+
 /////////////////////////Función para iniciar la trivia////////////////////////
-
-/*function trivia() {
-    let respuesta = prompt("¿Quieres hacer una trivia? (si/no)");
-    if (respuesta.toLowerCase() === "si") {
-        console.log("¡Perfecto! Vamos a comenzar la trivia.");
-        /////////////Pregunta de trivia/////////
-
-        // Pregunta 1
-    
-        let pregunta1 = prompt("¿Cuáles son los pokémones iniciales de la región de Kanto? (a) Bulbasaur (b) Mew (c) Arceus");
-        // Validación de respuesta
-        while (pregunta1 && pregunta1.toLowerCase() !== "a") {
-            console.log("Incorrecto. La respuesta correcta es Bulbasaur.");
-            pregunta1 = prompt("Intentá de nuevo: ¿Cuáles son los pokémones iniciales de la región de Kanto? (a) Bulbasaur (b) Mew (c) Arceus");
-        }
-        console.log("¡Correcto! Es Bulbasaur.");
-
-        // Pregunta 2
-        let pregunta2 = prompt("¿Cuál es el Pokémon más fuerte de la región de Kanto? (a) Pikachu (b) Charizard (c) Mewtwo");
-        // Validación de respuesta
-        while (pregunta2 && pregunta2.toLowerCase() !== "c") {
-            console.log("Incorrecto. La respuesta correcta es Mewtwo.");
-            pregunta2 = prompt("Intentá de nuevo: ¿Cuál es el Pokémon más fuerte de la región de Kanto? (a) Pikachu (b) Charizard (c) Mewtwo");
-        }
-        console.log("¡Correcto! Es Mewtwo.");
-
-        // Pregunta 3
-        let pregunta3 = prompt("¿Cómo se llama el primer líder de gimnasio de la región de Kanto? (a) Brock (b) Misty (c) Giovanni");
-        // Validación de respuesta
-        while (pregunta3 && pregunta3.toLowerCase() !== "a") {
-            console.log("Incorrecto. La respuesta correcta es Brock.");
-            pregunta3 = prompt("Intentá de nuevo: ¿Cómo se llama el primer líder de gimnasio de la región de Kanto? (a) Brock (b) Misty (c) Giovanni");
-        }
-        console.log("¡Correcto! Es Brock.");
-
-        //Pregunta 4
-        let pregunta4 = prompt("¿Debilidades super efectivas que tienen los pokémon de tipo planta? (a) Fuego, Volador, Veneno, Bicho, y Hielo (b) Tierra, Roca (c) Fanstasma, Hada, Hielo");
-        // Validación de respuesta
-        while (pregunta4 && pregunta4.toLowerCase() !== "a") {
-            console.log("Incorrecto. La respuesta correcta es Fuego, Volador, Veneno, Bicho, y Hielo.");
-            pregunta4 = prompt("¿Debilidades super efectivas que tienen los pokémon de tipo planta? (a) Fuego, Volador, Veneno, Bicho, y Hielo (b) Tierra, Roca (c) Fanstasma, Hada, Hielo");
-        }
-        console.log("¡Correcto! Es Fuego, Volador, Veneno, Bicho, y Hielo.");
-
-    } else if (respuesta && respuesta.toLowerCase() === "no") {
-        console.log("Está bien, tal vez en otra ocasión.");
-    } else {
-        console.log("Respuesta no válida. Por favor, responda 'si' o 'no'.");
-        return trivia(); 
-    }
-}*/
-
 function preguntasTrivia() {
     return [
         {
@@ -124,7 +70,6 @@ function preguntasTrivia() {
         }
     ];
 }
-
 
 function trivia() {
     let respuesta = prompt("¿Quieres hacer una trivia? (si/no)");

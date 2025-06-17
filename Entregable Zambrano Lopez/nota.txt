@@ -1,0 +1,5 @@
+Este simulador interactivo utiliza JavaScript para ofrecer una trivia basada en el universo Pokémon,
+utilizando todo lo aprendido en las clases. A su vez, esta entrega cuenta con dos archivos: HTML, JS y CSS, 
+los cuales se pueden identificar como "Principal" y "Secundario". Recomiendo que inicie por el primero
+y que, con tan solo presionar el botón "Ir a una trivia", será dirigido a la entrega verdadera solicitada.
+
