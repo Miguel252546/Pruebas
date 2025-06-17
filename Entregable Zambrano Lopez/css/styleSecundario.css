@@ -1,7 +1,8 @@
+/*----------Estilos para el cuerpo---------------*/
 body {
     background-color: hwb(324 27% 71% / 0.78); 
     font-family: Arial, sans-serif; 
-    background-image: url('../img/Poké_Balls.png'); /* Ruta de tu imagen */
+    background-image: url('../img/Tipos-Pokemon.png'); 
     background-position: center; 
 }
 header {
@@ -11,9 +12,10 @@ header {
     font-size: 20px;  
     font-weight: bold; 
     border-radius: 30px; 
-    border: 2px solid #000000; /* Borde del botón */
+    border: 2px solid #000000; 
 }
 
+/*----------Estilos para la navegación---------------*/
 nav ul {
     list-style-type: none; 
     padding: 0; 
@@ -28,6 +30,7 @@ nav ul li a {
     margin-right: 35px; 
 }
 
+/*----------Estilos para los botones para ir a otra pagina---------------*/
 .btn {
     background-color: #a5a5a5; 
     color: rgb(0, 0, 0); /* Color del texto */

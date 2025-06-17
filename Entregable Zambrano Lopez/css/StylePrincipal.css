@@ -2,7 +2,7 @@
 body {
     background-color: hwb(324 27% 71% / 0.78); 
     font-family: Arial, sans-serif; 
-    background-image: url('../img/Poké_Balls.png'); /* Ruta de tu imagen */
+    background-image: url('../img/Poké_Balls.png'); 
     background-position: center; 
 }
 header {
